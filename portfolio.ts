@@ -230,7 +230,7 @@ export const seoData: SEODataType = {
   description:
     'A passionate Full Stack Web Developer and Blockchain Developer.',
   author: 'Karthick',
-  image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
+  image: '/profile.jpg',
   url: 'https://developer-portfolio-karthi143ck.vercel.app',
   keywords: [
     'Karthick K',
