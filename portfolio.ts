@@ -226,18 +226,18 @@ export const showContactUs: boolean = true;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: 'Karthick',
+  title: 'Karthick Dev',
   description:
-    'A passionate Full Stack Web Developer and Blockchain Developer.',
+    'A passionate Full Stack Web Developer.',
   author: 'Karthick',
   // image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
-  url: 'https://developer-portfolio-karthi143ck.vercel.app',
+  url: 'https://www.kdev.in.net/',
   keywords: [
     'Karthick K',
-    'Karthick',
+    'Kdev',
     '@karthi143ck',
-    'karthi143ck',
-    'Portfolio',
+    'meshl',
+    'webcrown',
     'karthick Portfolio ',
   ],
 };
