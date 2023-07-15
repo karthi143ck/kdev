@@ -13,9 +13,9 @@ import {
 
 export const greetings: GreetingsType = {
   name: 'Karthick K',
-  title: "Hi all, I'm Karthick",
+  title: "Hello, I'm Karthick",
   description:
-    "I'm passionate Full Stack web developer having an experience of web applications with Python, Flask, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
+    "I'm passionate Full Stack web developer with a focus on creating complete projects using cutting-edge technologies like React.js, Ant Design, TypeScript, MongoDB, Python, and Flask. I have a diverse skill set that spans frontend and backend development, allowing me to build responsive and dynamic web applications.",
   resumeLink:
     'https://drive.google.com/file/d/1l2MG8U2jBWAYODEor8vJ5KJmeXhaPWMi/preview',
 };
@@ -37,7 +37,7 @@ export const socialLinks: SocialLinksType = {
 
 export const skillsSection: SkillsSectionType = {
   title: 'What I do',
-  subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   data: [
     {
       title: 'Full Stack Development',
@@ -76,9 +76,8 @@ export const skillsSection: SkillsSectionType = {
         },
         {
           skillName: 'Flask',
-          fontAwesomeClassName: 'vscode-icons:file-type-django',
+          fontAwesomeClassName: 'logos:flask',
         },
-
         {
           skillName: 'Redux',
           fontAwesomeClassName: 'logos:redux',
@@ -154,12 +153,12 @@ export const skillsSection: SkillsSectionType = {
 
 export const SkillBars: SkillBarsType[] = [
   {
-    Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-    progressPercentage: '90', //Insert relative proficiency in percentage
+    Stack: 'Backend',
+    progressPercentage: '80',
   },
   {
-    Stack: 'Backend',
-    progressPercentage: '70',
+    Stack: 'Frontend', //Insert stack or technology you have experience in
+    progressPercentage: '70', //Insert relative proficiency in percentage
   },
   {
     Stack: 'Programming',
@@ -169,88 +168,57 @@ export const SkillBars: SkillBarsType[] = [
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: 'Harvard University',
-    subHeader: 'Master of Science in Computer Science',
-    duration: 'September 2017 - April 2019',
-    desc: 'Participated in the research of XXX and published 3 papers.',
-    grade: 'Grade A',
+    schoolName: 'Adhiyamaan College of Engineering',
+    subHeader:
+      'Bachelor of Engineering in Electrical and Electronics Engineering',
+    duration: 'September 2019 - April 2023',
+    desc: 'Participated in the research of IoT and published 2 papers.',
+    grade: 'CGPA: 8.5',
     descBullets: [
-      'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      'IoT based smart billing system',
+      'IoT based smart monitoring system',
     ],
   },
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Frontend Developer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Apr 2022 – Jun 2022',
-    desc: 'I worked as frontend web developer to design web based admin dashboards for mulitple apps using Flask, Bootstrap, jQuery, Chart.js and some other libraries.',
+    role: 'Full Stack Developer',
+    company: 'SISCASO',
+    companyLogo: '/img/icons/common/siscaso.jpg',
+    date: 'Dec 2022 - Current',
+    desc: "Create a dynamic web applications using HTML, CSS, JavaScript, ReactJS, and Ant Design. I'm also skilled in TypeScript for type-safe development and integrating backend systems with MongoDB, Python, and Flask for efficient data management and processing.",
   },
   {
-    role: 'API Engineer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Jan 2022 – Mar 2022',
-    desc: 'I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Flask, FlaskRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Flask Server and deployed the API on Heroku Server.',
+    role: 'IoT Developer',
+    company: 'Emertxe Information Technologies',
+    companyLogo: '/img/icons/common/emertxe.jpg',
+    date: 'Nov 2022 – Dec 2022',
+    desc: 'As an IoT Developer, I designed and simulated advanced IoT projects using various technologies like embedded systems, sensors, and communication protocols. I focused on optimizing their performance and ensuring seamless integration for real-world applications.',
     // descBullets: [
     // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
     // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     // ],
   },
-  {
-    role: 'Full Stack Developer',
-    company: 'Bleed-AI',
-    companyLogo: '/img/icons/common/bleedAI.jpg',
-    date: 'Sept 2021 - Oct 2021',
-    desc: 'Worked as Flask web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Flask Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.',
-  },
-  {
-    role: 'Backend Developer',
-    company: 'Wapidu',
-    companyLogo: '/img/icons/common/wapidu.jpg',
-    date: 'Sept 2021',
-    desc: 'Worked as a Flask Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Flask REST Framework to integrate Flask Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.',
-  },
 ];
 
 export const projects: ProjectType[] = [
   {
-    name: 'developer-portfolio',
-    desc: 'Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
-    github: 'https://github.com/karthi143ck/developer-portfolio',
-    link: 'https://developer-portfolio-karthi143ck.vercel.app/',
+    name: 'Portfolio Website',
+    desc: 'Software Portfolio Website Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
+    github: 'https://github.com/karthi143ck/kdev',
+    link: 'https://www.kdev.in.net/',
   },
   {
-    name: 'AtlasMart',
-    desc: 'With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.',
-    github: 'https://github.com/karthi143ck/Flask-React-Marketplace',
-  },
-  {
-    name: 'Technota (Forum)',
-    desc: 'Get hands-on experience in technical skills with Technota',
-    github: 'https://github.com/karthi143ck/Flask-react-forum',
-  },
-  {
-    name: 'Shopaza (Ecommerce)',
-    desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
-    github: 'https://github.com/karthi143ck/Flask-ecommerce',
+    name: 'Meshl',
+    desc: 'With Meshl Mart, it’s easy to create the website with the best price.',
+    github: 'https://github.com/karthi143ck/meshl1',
+    link: 'https://meshl.kdev.in.net/',
   },
 ];
 
 export const feedbacks: FeedbackType[] = [
-  {
-    name: 'John Smith',
-    feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
-  },
-  {
-    name: 'John Smith',
-    feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
-  },
+  
 ];
 
 // option to hide or show the ContactUs component
@@ -258,19 +226,18 @@ export const showContactUs: boolean = true;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: 'Hanzla Tauqeer',
+  title: 'Karthick',
   description:
     'A passionate Full Stack Web Developer and Blockchain Developer.',
-  author: 'Hanzla Tauqeer',
+  author: 'Karthick',
   image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
   url: 'https://developer-portfolio-karthi143ck.vercel.app',
   keywords: [
-    'Hanzla',
-    'Hanzla Tauqeer',
+    'Karthick K',
+    'Karthick',
     '@karthi143ck',
     'karthi143ck',
     'Portfolio',
-    'Hanzla Portfolio ',
-    'Hanzla Tauqeer Portfolio',
+    'karthick Portfolio ',
   ],
 };

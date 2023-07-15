@@ -29,7 +29,7 @@ const ExperienceCard = ({
             <img
               src={companyLogo}
               style={{
-                objectFit: 'cover',
+                objectFit: 'contain',
                 left: 0,
                 right: 0,
                 top: '7rem',
@@ -37,7 +37,7 @@ const ExperienceCard = ({
                 marginRight: 'auto',
                 width: '8rem',
                 height: '8rem',
-                borderRadius: '50%',
+                borderRadius: '100%',
               }}
               className="shadow mb-3"
               alt={companyLogo}

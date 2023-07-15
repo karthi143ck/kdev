@@ -109,7 +109,7 @@ If you can help us with these. Please don't hesitate to open a [pull request](ht
 
 ## Author
 
-👤 **Hanzla Tauqeer**
+👤 **Karthick**
 
 - Website: https://hanzla.netlify.app
 - Github: [@karthi143ck](https://github.com/karthi143ck)
