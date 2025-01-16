@@ -17,7 +17,7 @@ export const greetings: GreetingsType = {
   description:
     "I'm passionate Full Stack web developer with a focus on creating complete projects using cutting-edge technologies like React.js, Ant Design, TypeScript, MongoDB, Python, and Flask. I have a diverse skill set that spans frontend and backend development, allowing me to build responsive and dynamic web applications.",
   resumeLink:
-    'https://drive.google.com/file/d/1l2MG8U2jBWAYODEor8vJ5KJmeXhaPWMi/preview',
+    'https://drive.google.com/file/d/18g0nHnynwYdgH_pQ-GDAUQGAa0DfHrmO/view?usp=sharing',
 };
 
 export const openSource = {
