@@ -114,14 +114,14 @@ export const skillsSection: SkillsSectionType = {
           skillName: 'Azure',
           fontAwesomeClassName: 'logos:microsoft-azure',
         },
-        {
-          skillName: 'Heroku',
-          fontAwesomeClassName: 'logos:heroku-icon',
-        },
-        {
-          skillName: 'PostgreSQL',
-          fontAwesomeClassName: 'logos:postgresql',
-        },
+        // {
+        //   skillName: 'Heroku',
+        //   fontAwesomeClassName: 'logos:heroku-icon',
+        // },
+        // {
+        //   skillName: 'PostgreSQL',
+        //   fontAwesomeClassName: 'logos:postgresql',
+        // },
         {
           skillName: 'Github',
           fontAwesomeClassName: 'akar-icons:github-fill',
@@ -130,22 +130,22 @@ export const skillsSection: SkillsSectionType = {
           skillName: 'Docker',
           fontAwesomeClassName: 'logos:docker-icon',
         },
-        {
-          skillName: 'Github Actions',
-          fontAwesomeClassName: 'logos:github-actions',
-        },
-        {
-          skillName: 'Cloudinary',
-          fontAwesomeClassName: 'logos:cloudinary',
-        },
-        {
-          skillName: 'Nginx',
-          fontAwesomeClassName: 'logos:nginx',
-        },
-        {
-          skillName: 'Sentry',
-          fontAwesomeClassName: 'logos:sentry-icon',
-        },
+        // {
+        //   skillName: 'Github Actions',
+        //   fontAwesomeClassName: 'logos:github-actions',
+        // },
+        // {
+        //   skillName: 'Cloudinary',
+        //   fontAwesomeClassName: 'logos:cloudinary',
+        // },
+        // {
+        //   skillName: 'Nginx',
+        //   fontAwesomeClassName: 'logos:nginx',
+        // },
+        // {
+        //   skillName: 'Sentry',
+        //   fontAwesomeClassName: 'logos:sentry-icon',
+        // },
       ],
     },
   ],
