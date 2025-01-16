@@ -111,7 +111,7 @@ If you can help us with these. Please don't hesitate to open a [pull request](ht
 
 👤 **Karthick**
 
-- Website: https://hanzla.netlify.app
+- Website: www.kdev.in.net
 - Github: [@karthi143ck](https://github.com/karthi143ck)
 - LinkedIn: [@karthi143ck](https://linkedin.com/in/karthi143ck)
 
